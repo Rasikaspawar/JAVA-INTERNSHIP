@@ -44,8 +44,8 @@ Basic I/O System.out and System.in is used.
     *issueBook(title) — Loops through books to find one by title and marks it issued.
     *returnBook(title) — Marks a book as returned if it matches and was issued.
 6) Main.java
-    *Creates a Library object and a Scanner for user input.
-    *user and librarian demonstrate polymorphism with displayRole().
+        *Creates a Library object and a Scanner for user input.
+        *user and librarian demonstrate polymorphism with displayRole().
    ==============================================================================================================================
        
          
