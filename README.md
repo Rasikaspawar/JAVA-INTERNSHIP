@@ -47,5 +47,15 @@ Basic I/O System.out and System.in is used.
         *Creates a Library object and a Scanner for user input.
         *user and librarian demonstrate polymorphism with displayRole().
    ==============================================================================================================================
+                                       TASK4 ( FILE READ & WRITE)
+  * Here i am created File read and write project using following concept
+  * FileWriter - To Write notes to file & create file ( and here i am given to my file name is notes.txt so if we are given another name this file then file is not created this logic is used).
+  *  FileReader +BufferedReader = To read notes from file.
+  *   Try-with-resource- to automatically close files.
+  *   Exception handling - Handl IOException, FileNotFoundException.
+  *   Scanner - to take user input from console.
+  *   do-while loop - to show menu until user choose not "EXIT".
+  *   Switch-case - to handle user's choice.
+===================================================================================================================================
        
          
