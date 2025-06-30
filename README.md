@@ -57,5 +57,24 @@ Basic I/O System.out and System.in is used.
   *   do-while loop - to show menu until user choose not "EXIT".
   *   Switch-case - to handle user's choice.
 ===================================================================================================================================
-       
+       Task 5 (Banking Account Simulation)
+
+This is a simple Java project I created for my internship task. It simulates a bank account using OOP concepts like classes, inheritance, and method overriding.
+
+### Features:
+- Deposit money 💰
+- Withdraw money 💸
+- Add interest 📈
+- View balance and transaction history 🧾
+
+### Files:
+- `Account.java` – main class with deposit/withdraw logic
+- `SavingsAccount.java` – extends Account and adds interest
+- `Main.java` – contains the menu and runs the app
+
+- OOP concepts (inheritance, overriding, encapsulation)
+- How to manage account balance and history
+- Writing clean and menu-based Java code.
+======================================================================================
+
          
