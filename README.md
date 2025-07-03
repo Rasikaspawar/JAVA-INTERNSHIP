@@ -156,4 +156,32 @@ This line imports everything you need from the Swing library for GUI.
 *JScrollPanel is used for Makes the task list scrollable if it's long.
 
 =========================================================================================
-         
+		*********************(Task7)(Java JDBC – Employee Database App)**
+This is a simple **Java console application** that connects to a **MySQL database** and performs 
+**CRUD operations** (Create, Read, Update, Delete) on employee data using **JDBC (Java Database Connectivity)**.
+**why use we JDBC**
+--JDBC allows Java to connect to a MySQL database.
+--It helps perform CRUD operations (Create, Read, Update, Delete).
+--PreparedStatement is used to write safe and secure SQL queries.
+--JDBC makes it possible to store and manage real data from Java.
+
+**| Task                   |	JDBC Feature Used       	     |**
+|  Connect Java to MySQL   = 	'DriverManager.getConnection(...)'   |
+| Insert employee data     = 	'PreparedStatement.executeUpdate()'  |
+|  View all employees      = 	'ResultSet` to read from database    |
+|  Update employee data    = 	'PreparedStatement' with SQL UPDATE  |
+|  Delete employee by ID   = 	'PreparedStatement' with SQL DELETE  |
+|  Prevent SQL Injection   = 	Using '?' placeholders in queries    |
+ **Why we use ? in JDBC (PreparedStatement):
+	-We use ? to safely add input in SQL.
+	-It keeps the input separate from the query.
+	-"? " is used to safely add user input and protect the database.
+
+**| Component          | 		Purpose                             |****
+
+| 'Connection'         = Connects Java app to the database                  |
+| 'PreparedStatement'  = Executes SQL queries safely (with parameters)      |
+| 'ResultSet'          = Stores and reads results from SELECT queries       |
+| 'DriverManager'      = Loads and registers the database driver            |
+| 'Db.properties` file = Stores database URL, username, and password safely |
+
