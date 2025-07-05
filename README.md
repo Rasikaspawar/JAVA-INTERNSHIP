@@ -184,4 +184,9 @@ This is a simple **Java console application** that connects to a **MySQL databas
 | 'ResultSet'          = Stores and reads results from SELECT queries       |
 | 'DriverManager'      = Loads and registers the database driver            |
 | 'Db.properties` file = Stores database URL, username, and password safely |
+==================================================================================================
+*********************(TASK 8)(MINI PROJECT(QUIZ APP))**********************
+Here i am created quiz app mini project . here i am create 3 domin (Java,sql,Data structure)based quiz app which is consol based .
+1st user choose which domain to prefer for question answer ,after choosing domain thne this domain quiz is display on console ,basically only 10 question of each domain and 
+after user given answer of each question display on console user answer is correct or not and the last display the "MARKS OF USER" this is my "QUIZ APP BASED CONSOLE PROJECT".
 
